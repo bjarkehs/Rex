@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 
   s.name         = "Rex"
   s.module_name  = "Rex"
-  s.version      = "0.4.0-swift2"
-  s.summary      = "Additional ReactiveCocoa operators"
+  s.version      = "0.8.0"
+  s.summary      = "ReactiveCocoa Extensions"
 
   s.description  = <<-DESC
                    Extensions for ReactiveCocoa that may not fit in the core framework.
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/neilpa/Rex.git", :branch => "swift2", :HEAD }
+  s.source       = { :git => "https://github.com/neilpa/Rex.git", :tag => "v0.8.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
